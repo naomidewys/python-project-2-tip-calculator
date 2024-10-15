@@ -1,15 +1,16 @@
-#If the bill was $150.00, split between 5 people, with 12% tip.
+import art
 
-#Each person should pay (150.00 / 5) * 1.12 = 33.6
-#Format the result to 2 decimal places = 33.60
+#Add header / greeting
+print(art.logo)
+print("Welcome to the Tip Calculator!")
+print("To calculate your tip total, please answer the following questions.")
 
-#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+#Create variables for calculating
+total_bill = int(input("How much was your total bill? $"))
+tip_percentage = int(input("How much tip% would you like to give? 10, 15, or 20? "))
+num_people = int(input("How many people to split the bill? "))
 
-#Write your code below this line 👇
-print("Welcome to the tip calculator!")
-original_bill = float(input("How much was the total bill? $"))
-tip_percentage = int(input("How much would you like to tip? E.g., 10, 15?"))
-num_people = int(input("How many people will split the bill?"))
-total_bill = original_bill * (tip_percentage / 100 + 1)
-per_person = round(total_bill / num_people, 2)
-print(f"Each person will pay ${per_person}")
+#Calculate tip amount
+bill_due = round((total_bill * (tip_percentage / 100 + 1)) / num_people)
+
+print("Each person will pay $" + str(bill_due))
