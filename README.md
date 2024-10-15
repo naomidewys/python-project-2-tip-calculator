@@ -1,41 +1,14 @@
-## Tip Calculator
-
-# Instructions
-
-If the bill was $150.00, split between 5 people, with 12% tip. 
-
-Each person should pay (150.00 / 5) * 1.12 = 33.6
-
-Format the result to 2 decimal places = 33.60
-
-Thus everyone's share of the total bill is $30.00 plus a $3.60 tip.
-
-Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
-
-
-# Example Input
-
-```
-Welcome to the tip calculator!
-What was the total bill? $124.56
-How much tip would you like to give? 10, 12, or 15? 12
-How many people to split the bill? 7
-```
-
-# Example Output
-
-```
-Each person should pay: $19.93
-```
-
-
-# Hint
-
-1. [How to round a number to 2 decimal places in Python](https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal)
-2. [How to limit a float to two decimal places in Python](https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python)
-
-
-
-# Solution
-
-[https://replit.com/@appbrewery/tip-calculator-end](https://replit.com/@appbrewery/tip-calculator-end)
+<h1> Python Project 2: Tip Calculator </h1>
+<p><em>Updated 15 October 2024: Reattempted module and committed new changes to practice what I've learned. Main.py is cleaned up with new code, including comments, and I have added ASCII art for the logo in a separate art.py file.</em></p>
+<h2>Summary</h2>
+<p>This project is for day 2 of the 100 Days of Code challenge that I'm completing as part of the Complete Python Pro Bootcamp with Dr. Angela Yu from the App Brewery. Each project in this challenge will be using Python so that I can grow my skills in software development.</p>
+<p>This project is a simple tip calculator that calculates each person's bill portion by using three inputs: the total bill amount, the tip percentage given, and how many people are splitting the bill.</p>
+<h3>Learnings</h3>
+<p>I learned that integers need to be converted into strings to print statements. I also learned how to calculate percentage amounts using integers (no percent symbol) and how to round amounts to ensure readability and convenience.</p>
+<h2>Tech stack</h2>
+<ul>
+  <li>Python</li>
+  <li>Replit (first attempt)</li>
+  <li>VS Code (second attempt)</li>
+  <li>ASCII (second attempt)</li>
+</ul>
