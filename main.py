@@ -11,6 +11,6 @@ tip_percentage = int(input("How much tip% would you like to give? 10, 15, or 20?
 num_people = int(input("How many people to split the bill? "))
 
 #Calculate tip amount
-bill_due = round((total_bill * (tip_percentage / 100 + 1)) / num_people)
+bill_due = round(((total_bill * (tip_percentage / 100 + 1)) / num_people), 2)
 
 print("Each person will pay $" + str(bill_due))
